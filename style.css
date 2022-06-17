@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.nocap {
+    text-transform: none;
+}
+/*link  styling*/
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+/*header section*/
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    max-height: 69px;
+    top: 0;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+header li {
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+}
+/*Main section*/
+main{
+    opacity: 0.9;
+    display: flex;
+    margin-top: 70px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex: auto;
+}
+
+div {
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+}
+
+.mission {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.featured {
+    max-width: 1000px;
+    margin-bottom: 40px;
+
+}
+.teabox {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.teabox img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.teabox div {
+    align-self: center;
+    margin: 0 auto;
+}
+
+.locations {
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    width: auto;
+}
+
+.locbox{
+    background-color: black;
+    display: inline-block;
+    width: 300px;
+    margin-left:40px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+/*Footer section*/
+
+.foot {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright{
+    left: 20px;
+    padding-left: 20px;
+}
+
+
